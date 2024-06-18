@@ -1,13 +1,5 @@
 enum CacheKey {
   Token = 'token',
-  VssToken = 'vss_token',
-  TokenExpiredTime = 'tokenExpiredTime',
-  Permissions = 'permissions',
-  Platform = 'platform',
-  UserID = 'userId',
-  UserInfo = 'userInfo',
-  CHANNEL_ID = 'CHANNEL_ID',
-  SSO_TOKEN = 'SSO_TOKEN',
   Lang = 'lang',
   ThemeColor = 'ThemeColor',
 }

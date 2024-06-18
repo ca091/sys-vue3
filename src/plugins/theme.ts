@@ -20,12 +20,17 @@ function setThemeColor(color: string) {
 }
 
 export default {
-  install() {
+  install(app: any) {
     setThemeColor(themeColor.value)
 
     watch(themeColor, () => {
       console.log('theme color changed')
       setThemeColor(themeColor.value)
     })
+
+    app.config.globalProperties.$f = (v: string): string => {
+      console.log('test $f' + v)
+      return v
+    }
   }
 }
