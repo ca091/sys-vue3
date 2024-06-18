@@ -9,12 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "element-plus": "^2.7.5",
+    "mitt": "^3.0.1",
+    "qs": "^6.12.1",
+    "utilsofweb": "^2.2.8",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
+    "less": "^4.2.0",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vue-tsc": "^2.0.12"
   }
 }
